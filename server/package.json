@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node src/server",
+    "start": "node src/server.js",
     "dev": "nodemon src/server",
     "deploy":"heroku create",
     "updatedeploy":"git add . && git commit -m 'updated' && git push heroku master",
