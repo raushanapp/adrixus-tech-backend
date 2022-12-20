@@ -1,4 +1,4 @@
-const app = require("./index")
+const app = require("./app")
 const connect = require("./config/db");
 
 const port = process.env.PORT || 2500;
