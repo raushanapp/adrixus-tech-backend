@@ -1,5 +1,5 @@
-const app = require("./server/src/app")
-const connect = require("./server/src/config/db");
+const app = require("./src/app")
+const connect = require("./src/config/db");
 
 const port = process.env.PORT || 2500;
 app.listen(port, async () => {
