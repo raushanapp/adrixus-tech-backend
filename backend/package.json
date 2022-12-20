@@ -2,7 +2,7 @@
   "name": "adrixus_tech_studio",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
     "server":"nodemon src/server.js",
