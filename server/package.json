@@ -5,10 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server",
-    "deploy":"heroku create",
-    "updatedeploy":"git add . && git commit -m 'updated' && git push heroku master",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server"
+    
   },
   "keywords": [],
   "author": "",
@@ -19,7 +17,6 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
-    "heroku":"^7.67.1",
     "mongoose": "^6.8.0"
   },
   "devDependencies": {
