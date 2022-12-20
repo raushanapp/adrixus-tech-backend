@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.get("/users", userController);
+app.use("/users", userController);
 app.post("/register",register);
 app.post("/login",login);
 module.exports = app;
